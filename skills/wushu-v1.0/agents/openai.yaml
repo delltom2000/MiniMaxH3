@@ -1,0 +1,13 @@
+interface:
+  display_name: wushu-v1.0
+  short_description: 强化武术编导、双人攻防、兵器握法、快慢节奏和电影运镜的提示词
+  default_prompt: 使用 $wushu-v1-0 强化这段武打剧情，逐招配对应招，写清兵器射程、步法、危险细节和电影运镜，并输出可复制的视频提示词。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
