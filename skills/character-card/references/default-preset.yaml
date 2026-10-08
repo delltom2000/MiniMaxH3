@@ -1,0 +1,20 @@
+preset_name: character-card-four-view-v1
+skill: character-card
+aspect_ratio: "16:9"
+layout:
+  direction: left-to-right
+  panels: [face-close-up, front-full-body, right-facing-profile-full-body, back-full-body]
+  widths_percent: [36, 22, 21, 21]
+background: white-or-light-gray-studio
+lighting: soft-three-point
+style: realistic-photography
+full_body:
+  matched_scale: true
+  matched_head_and_foot_baselines: true
+  include_hair_hands_and_shoes: true
+identity_lock: [face, hairstyle, skin-tone, age-appearance, body-proportions, leg-shape]
+wardrobe_lock: [cut, material, color, seams, fasteners, accessories, shoes, socks]
+text: false
+watermark: false
+outfit_edit_scope: synchronize-visible-changes-across-all-views
+user_override: true
