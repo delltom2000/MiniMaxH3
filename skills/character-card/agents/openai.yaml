@@ -1,0 +1,4 @@
+interface:
+  display_name: "人物卡 character-card"
+  short_description: "面部大特写与正侧背全身四视图，锁定人物、腿型和服装，支持单独改款"
+  default_prompt: "使用 $character-card，按这张参考图制作角色卡。"
